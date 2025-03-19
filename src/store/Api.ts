@@ -7,8 +7,7 @@ const ACCESS_TOKEN = '4/0AQSTgQEbG-juGADCImsYM68947hdYiu6cpdZkB2h0XmVOg3_ZlYr8M_
 const PROPERTY_ID = '482635516';  // Votre Property ID GA4
 
 // URL de l'API Google Analytics Data
-const API_URL = `https://analyticsdata.googleapis.com/v1beta/properties/${PROPERTY_ID}:runReport`;
-
+const API_URL = `https://analyticsdata.googleapis.com/properties/${PROPERTY_ID}:runReport`;
 
 // Définition des interfaces pour les types de données attendus
 interface MetricValue {
