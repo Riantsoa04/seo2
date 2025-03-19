@@ -4,7 +4,7 @@ import axios from 'axios';
 const ACCESS_TOKEN = '4/0AQSTgQEbG-juGADCImsYM68947hdYiu6cpdZkB2h0XmVOg3_ZlYr8M_vrBAQr0ymwUxXNw';  // Remplacez par votre token d'accès obtenu via OAuth 2.0
 
 // ID de la propriété GA4
-const PROPERTY_ID = 'G-X980YHR4BN';  // Votre Property ID GA4
+const PROPERTY_ID = '482635516';  // Votre Property ID GA4
 
 // URL de l'API Google Analytics Data
 const API_URL = `https://analyticsdata.googleapis.com/v1beta/properties/${PROPERTY_ID}:runReport`;
